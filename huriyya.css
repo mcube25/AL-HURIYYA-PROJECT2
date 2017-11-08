@@ -1,0 +1,145 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIx_xf-9wWXhQ9rYkA-aoS__ymZC4lH6vK-mAmRkpRQkWnqRej4g);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#top_content {
+    padding-left: 16px;
+    padding-top: 7px;
+    display: block;
+}
+
+h2 {
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 33.5px;
+    margin-bottom: 8px;
+    margin-top: 4px;
+    padding-left: 15px;
+}
+
+.img-content {
+    height: 23px;
+    width: 23px;
+    background-color: lightblue;
+}
+
+.nav-links {
+    background-color: #2D2D2D;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    margin: 8px;
+    border: 2px line black;
+    padding-top: 4px;
+}
+
+nav.navbar.navbar-default {}
+
+div.container-fluid {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+div.navbar-header {
+    background-color: #B1503B;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+main {
+    background-image: ;
+    background-color: ;
+}
+
+.row {
+    background-color: #F4F4F3;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 9px;
+    padding-left: 9px;
+}
+
+div.col-md-6 {
+    background-image: url();
+}
+
+h3 {
+    color: ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+}
+
+p {
+    padding-left: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+img.img-fluid {
+    width: 100%;
+    max-width: 500px;
+}
+
+.img-content {
+    height: 23px;
+    width: 23px;
+    background-color: blue;
+}
+
+div.col-md-3 {
+    background-image: url();
+    padding-left: 10px;
+}
+
+div.col-md-4 {
+    background-image: url();
+    padding-left: 10px;
+}
+
+div.four-columns {
+    font-style: italics;
+    color: blue;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+div.fifth-columns {
+    font-style: italics;
+    color: blue;
+    font-size: 18px;
+    display: inline;
+    font-weight: bold;
+}
+
+div.sixth-columns {
+    font-style: italics;
+    color: blue;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+div.seventh-columns {
+    font-style: italics;
+    color: blue;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+div.bg-black {
+    font-style: italics;
+    color: blue;
+    font-size: 18px;
+    display: inline-block;
+    font-weight: bold;
+}
