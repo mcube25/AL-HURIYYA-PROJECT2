@@ -1,20 +1,50 @@
+.flex {
+    width: 350px;
+    height: 200px;
+    border: solid #555;
+    font: 14px Arial;
+    /*flexbox setup*/
+    display: flex;
+    flex-direction: row;
+}
+
+.flex>div {
+    flex: 1 1 auto;
+    width: 30px;
+    transition: width 0.7s;
+}
+
+
+/* colors */
+
+.flex>div :nth-child(1) {
+    background-image: 'https://';
+    background: transparent;
+}
+
+.flex>div :nth-child(2) {
+    background: #ff1f2f;
+}
+
+.flex>div :nth-child(3) {
+    background: #ff1f2f;
+}
+
 body {
-    background-image: url();
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIx_xf-9wWXhQ9rYkA-aoS__ymZC4lH6vK-mAmRkpRQkWnqRej4g);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #top_content {
     padding-left: 16px;
-    font-family: 'Times New Roman';
-    line-height: 23px;
     padding-top: 7px;
     display: block;
 }
 
-h1 {
+h2 {
     display: block;
-    font-family: georgia italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 30px;
     font-weight: 500;
     line-height: 33.5px;
@@ -32,7 +62,7 @@ h1 {
 .nav-links {
     background-color: #2D2D2D;
     display: block;
-    font-family: 'Times New Roman';
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: normal;
     margin: 8px;
@@ -45,7 +75,6 @@ nav.navbar.navbar-default {}
 div.container-fluid {
     font-size: 16px;
     font-weight: bold;
-    font-family: georgia italic;
 }
 
 div.navbar-header {
@@ -62,10 +91,8 @@ main {
 .row {
     background-color: #F4F4F3;
     color: black;
-    font-size: 16px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: normal;
-    line-height: 24px;
+    font-size: 15px;
+    font-weight: bold;
     margin-left: 9px;
     padding-left: 9px;
 }
@@ -76,7 +103,7 @@ div.col-md-6 {
 
 h3 {
     color: ;
-    font-family: Georgia italic;
+    font-family: Arial, Helvetica, sans-serif;
     padding-left: 8px;
     padding-bottom: 5px;
     margin-top: 10px;
@@ -85,9 +112,7 @@ h3 {
 p {
     padding-left: 9px;
     font-size: 16px;
-    font-weight: normal;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    line-height: 24px;
+    font-weight: bold;
 }
 
 img.img-fluid {
@@ -112,81 +137,36 @@ div.col-md-4 {
 }
 
 div.four-columns {
-    font-style: georgia italic;
+    font-style: italics;
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
-    font-weight: bold;
 }
 
 div.fifth-columns {
-    font-style: georgia italic;
+    font-style: italics;
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
     display: inline;
-    font-weight: bold;
 }
 
 div.sixth-columns {
-    font-style: georgia italic;
+    font-style: italics;
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
-    font-weight: bold;
 }
 
 div.seventh-columns {
-    font-style: georgia italic;
+    font-style: italics;
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
-    font-weight: bold;
 }
 
 div.bg-black {
-    font-style: georgia italic;
+    font-style: italics;
     color: blue;
-    font-size: 18px;
+    font-size: 16px;
     display: inline-block;
-    font-weight: bold;
-}
-
-.display-2 {
-    color: royalblue;
-    font-family: Georgia italic;
-    padding-left: 8px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-}
-
-.display-4 {
-    color: royalblue;
-    font-family: Georgia italic;
-    padding-left: 8px;
-    padding-bottom: 5px;
-    margin-top: 10px;
-}
-
-.list-inline {
-    color: ;
-    font-family: Georgia italic;
-    padding-left: 14px;
-    padding-bottom: 8px;
-    margin-top: 10px;
-}
-
-.list-inline-item {
-    color: ;
-    font-family: Georgia italic;
-    padding-left: 14px;
-    padding-bottom: 7px;
-    margin-top: 10px;
-}
-
-.h5 {
-    color: royalblue;
-    font-family: Georgia italic;
-    padding-left: 8px;
-    padding-bottom: 5px;
-    margin-top: 10px;
 }
