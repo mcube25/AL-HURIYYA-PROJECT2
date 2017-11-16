@@ -49,7 +49,7 @@ div.container-fluid {
 }
 
 div.navbar-header {
-    background-color: #B1503B;
+    background-color: #414141;
     font-size: 20px;
     font-weight: bold;
 }
@@ -154,6 +154,7 @@ div.col-md-4 {
 .footer {
     background-color: #414141;
     width: 100%;
+    position: absolute;
     text-align: left;
     font-family: sans-serif;
     font-weight: bold;
